@@ -6,12 +6,12 @@ This git contains .m or MATLAB files
 This project requires EEGLAB + MATLAB to be installed and updated on your computer
 
 ## Usage
-EEG
+#EEG
 After gathering EEG data, sort your data into the appropriate files. 
 First run preprocessloop.m, this program loops based on the amount of files in a set folder, based on your determined datapath
 Run plottimefrequencyloop
 
-EMG
+#EMG
 EMG files still in development
 
 
