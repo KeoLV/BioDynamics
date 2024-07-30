@@ -6,7 +6,7 @@
  extracts the go/nogo epochs as denoted by 's8'and 's16' respectively
 %}
 % Define the path for data
-datapath = 'C:\Path\to\your\.vhdrfiles\';
+datapath = 'C:\Path\to\the\.vhdrfiles\';
 
 %initialize EEG
 [ALLEEG, EEG, CURRENTSET] = eeglab;
