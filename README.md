@@ -9,12 +9,17 @@ This project requires EEGLAB + MATLAB to be installed and updated on your comput
 EEG:
 
 After gathering EEG data, sort your data into the appropriate files. 
-First run preprocessloop.m, this program loops based on the amount of files in a set folder, based on your determined datapath
-Run plottimefrequencyloop
+First run eegpreprocess.m, this program loops based on the amount of files in a set folder, based on your determined datapath
+Run eegtimefrequencyfigures to generate figures for corresponding trials.
 
 EMG:
 
 EMG files still in development
+Run emgcsvadj to adjust EMG .csv file to correspond time "0" with first stimulus or high from TTL (first value above 1)
+Run emgtoeegset to take adjusted EMG file, and import it to EEG software. This also adds the events from the corresponding 
+  eeg file and sets the first TTL signal of 's2'or when the program starts, as the beginning of the new set to match the
+  stimulus events with the emg response signals
+Run emgepochfigures to epoch around go and no go signals, remove the baseline, and generate the average graphs - still under development
 
 
 ## License
